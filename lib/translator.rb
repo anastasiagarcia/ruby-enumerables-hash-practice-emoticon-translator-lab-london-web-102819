@@ -22,7 +22,7 @@ def get_japanese_emoticon(file_path, emoticon)
   
 end
 
-def get_english_meaning(file_path. emoticon)
+def get_english_meaning(file_path, emoticon)
   translations=load_library(file_path)
   if translations[:get_meaning].key?(emoticon)
     return translations[:get_meaning][emoticon]
