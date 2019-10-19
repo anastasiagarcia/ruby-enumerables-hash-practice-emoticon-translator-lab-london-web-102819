@@ -25,6 +25,6 @@ end
 def get_english_meaning(file_path. emoticon)
   translations=load_library(file_path)
   if translations[:get_meaning].key?(emoticon)
-    return
+    return translations[:get_meaning][emoticon]
   end
 end
