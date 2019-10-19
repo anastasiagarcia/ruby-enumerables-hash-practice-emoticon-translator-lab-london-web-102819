@@ -27,4 +27,5 @@ def get_english_meaning(file_path. emoticon)
   if translations[:get_meaning].key?(emoticon)
     return translations[:get_meaning][emoticon]
   end
+  return "Sorry, the emoticon was not found"
 end
