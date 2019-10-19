@@ -17,6 +17,7 @@ def get_japanese_emoticon(file_path, emoticon)
   translations=load_library(file_path)
   if translations[:get_emoticon].key?(emoticon)
     return translations[:get_emoticon][emoticon]
+  end
   
 end
 
