@@ -2,6 +2,10 @@ require "yaml"
 
 def load_library(file_path)
  YAML.load_file(file_path)
+ total={
+   :get_meaning=>{}
+   :get_emoticon=>{}
+ }
 end
 
 def get_japanese_emoticon
