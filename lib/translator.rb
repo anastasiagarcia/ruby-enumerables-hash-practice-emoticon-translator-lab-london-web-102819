@@ -3,7 +3,7 @@ require "yaml"
 def load_library(file_path)
  emojis=YAML.load_file(file_path)
  total={
-   :get_meaning=>{}
+   :get_meaning=>{},
    :get_emoticon=>{}
  }
  emojis.each{|emotion,symbols|
